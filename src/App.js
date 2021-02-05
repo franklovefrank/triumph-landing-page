@@ -18,6 +18,15 @@ function App() {
     <div className="App">
       <Router>
         <Container fluid className="container1">
+        <Row className="justify-content-end row0"> 
+        <Link to="/login" className="login">
+                LOGIN
+              </Link>
+          <Link to="/register" className="login">
+            REGISTER
+          </Link>
+          </Row>
+
           <Row className="justify-content-center header">
             <Col xs={1}>
               <Image src={logo1} fluid></Image>
@@ -191,6 +200,8 @@ function App() {
               </Link>
             </Col>
           </Row>
+
+
         </Container>
       </Router>
     </div>

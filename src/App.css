@@ -1,15 +1,39 @@
-.App {
-  text-align: center;
-}
-
 @font-face {
   font-family: Supply-Regular;
   src: url("./assets/Supply-Regular.otf") format("opentype");
 }
 
+.App {
+  text-align: center;
+  font-family: Supply-Regular;
+  color: white;
+}
+
+
 .container1{
   background-color: rgb(37, 37, 37);
 }
+
+.row0{
+  padding-top: 1vw;
+}
+
+.login{
+  padding-left: 1vw;
+  padding-right: 1vw;
+  color: #f28e27;
+  text-decoration: none;
+}
+
+a.login:link, a.login:visited{
+  color:#f28e27;
+  text-decoration: none;
+}
+
+a.login:hover, a.login:active{
+  color: white;
+}
+
 
 .header{
   padding-top: 3vw;
@@ -28,40 +52,34 @@
   padding-bottom: 1vw;
 }
 
+
 .header-text1 {
   font-size: calc(1em + 1.4vw); 
-  color: white;
-  font-family: Supply-Regular;
 }
 
 .header-text2 {
   font-size: calc(1em + 1vw); 
-  color: white;
-  font-family: Supply-Regular;
 }
 
 .header-text3{
   font-size: calc(1em + .6vw); 
-  color: #f28e27;
-  font-family: Supply-Regular;
 }
 
 .header-text4{
   font-size: calc(1em + .15vw); 
-  color:white;
-  font-family: Supply-Regular;
 }
 
 .cards{
   color: black;
-  font-family: Supply-Regular;
   margin-bottom: -1vw;
-  border-radius: 20%
+  border-radius: 0%;
 }
 
 .card-header-img {
-  padding: 5% 30% 0% 30%;
+  padding-top: 1vw;
   margin: 0px auto;
+  height: 8vw;
+  object-fit: contain;
 }
 
 .row3{
@@ -75,9 +93,10 @@
 }
 
 .row5{
-  padding-bottom: 4vw;
+  padding-bottom: 20vw;
   padding-left: 8vw;
   padding-right: 8vw;
+  height: 15vw;
 }
 
 .row6{
@@ -111,16 +130,20 @@
 
 .container2{
   background-color: black;
-  font-family: Supply-Regular;
   color: white;
   text-align: left;
 }
 .graphics-text{
   color: white;
-  font-family: Supply-Regular;
   font-size: calc(1em + 0.5vw);
 }
 
 .labels{
   color: #f28e27;
 }
+
+.dotted {
+  border: none;
+  border-top: 20px dotted green;
+}
+
