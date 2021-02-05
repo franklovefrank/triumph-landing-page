@@ -2,37 +2,125 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: Supply-Regular;
+  src: url("./assets/Supply-Regular.otf") format("opentype");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container1{
+  background-color: rgb(37, 37, 37);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header{
+  padding-top: 3vw;
+  margin-bottom: 4vw;
+}
+
+.logoname{
+  padding-top: 1.5vw;
+}
+
+.row1{
+  padding-bottom: 3vw;
+}
+
+.row2{
+  padding-bottom: 1vw;
+}
+
+.header-text1 {
+  font-size: calc(1em + 1.4vw); 
   color: white;
+  font-family: Supply-Regular;
 }
 
-.App-link {
-  color: #61dafb;
+.header-text2 {
+  font-size: calc(1em + 1vw); 
+  color: white;
+  font-family: Supply-Regular;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-text3{
+  font-size: calc(1em + .6vw); 
+  color: #f28e27;
+  font-family: Supply-Regular;
+}
+
+.header-text4{
+  font-size: calc(1em + .15vw); 
+  color:white;
+  font-family: Supply-Regular;
+}
+
+.cards{
+  color: black;
+  font-family: Supply-Regular;
+  margin-bottom: -1vw;
+  border-radius: 20%
+}
+
+.card-header-img {
+  padding: 5% 30% 0% 30%;
+  margin: 0px auto;
+}
+
+.row3{
+  padding-top: 1vw;
+  padding-bottom: 2vw;
+}
+
+.row4{
+  margin-top: -2vw;
+  margin-bottom: 4vw;
+}
+
+.row5{
+  padding-bottom: 4vw;
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+
+.row6{
+  padding-bottom: 1vw;
+  padding-top: 1vw;
+  padding-left: 5vw;
+}
+.row7{
+  padding-left: 5vw;
+  padding-right:5vw;
+  padding-bottom: 1vw;
+}
+
+.row8{
+  padding-top: 2vw;
+  padding-bottom: 1vw;
+}
+
+.row9{
+  padding-bottom:2vw;
+}
+
+.row10{
+  padding-bottom: 2vw;
+}
+
+.graphics{
+  padding: 5% 20% 0% 20%;
+  margin: 0px auto;
+}
+
+.container2{
+  background-color: black;
+  font-family: Supply-Regular;
+  color: white;
+  text-align: left;
+}
+.graphics-text{
+  color: white;
+  font-family: Supply-Regular;
+  font-size: calc(1em + 0.5vw);
+}
+
+.labels{
+  color: #f28e27;
 }
