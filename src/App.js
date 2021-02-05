@@ -18,41 +18,44 @@ function App() {
     <div className="App">
       <Router>
         <Container fluid className="container1">
-        <Row className="justify-content-end row0"> 
+
+        <Row className="justify-content-end header">
         <Link to="/login" className="login">
                 LOGIN
-              </Link>
+          </Link>   
           <Link to="/register" className="login">
             REGISTER
           </Link>
           </Row>
 
-          <Row className="justify-content-center header">
-            <Col xs={1}>
+          <Row className="justify-content-center row0">
+            <Col xs={2} md={1}>
               <Image src={logo1} fluid></Image>
             </Col>
-            <Col xs={4}>
+            <Col xs={8} md={4}>
               <Image className="logoname" src={logo} fluid></Image>
             </Col>
           </Row>
+
           <Row className="justify-content-center row1">
-            <Col xs={12} md={5}>
-              <h1 className="header-text1">
-                {" "}
+            <Col xs={8} md={6}>
+              <h1 className="text1">
                 Play online games for real money!
               </h1>
             </Col>
           </Row>
           <Row className="justify-content-center row2">
-            <h1 className="header-text2"> How to play:</h1>
+            <text className="text2"> How to play:</text>
           </Row>
+
           <Row className="justify-content-center">
-            <Col xs={8} md={4}>
+            <Col sm={8} md={4}>
               <Link to="/playnow">
                 <Image src={playnow} fluid />
               </Link>
             </Col>
           </Row>
+
           <Row className="row3 justify-content-center">
             <Col xs={11} md={3}>
               <Image className="graphics" src={choose} fluid />

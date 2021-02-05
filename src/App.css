@@ -14,13 +14,13 @@
   background-color: rgb(37, 37, 37);
 }
 
-.row0{
+.header{
   padding-top: 1vw;
+  padding-right: 1vw;
 }
 
 .login{
   padding-left: 1vw;
-  padding-right: 1vw;
   color: #f28e27;
   text-decoration: none;
 }
@@ -35,31 +35,56 @@ a.login:hover, a.login:active{
 }
 
 
-.header{
-  padding-top: 3vw;
-  margin-bottom: 4vw;
+@media (max-width: 978px) {
+  .header {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 2vw;
+  padding-bottom: 1vw;
+  }
+}
+
+.row0{
+  padding-bottom: 4vw;
 }
 
 .logoname{
-  padding-top: 1.5vw;
+  padding-top: 1.8vw;
+  padding-right: 1vw;
+}
+
+@media (max-width: 978px) {
+  .row0 {
+    padding-top: 2vw;
+    padding-bottom:4vw;
+  }
 }
 
 .row1{
   padding-bottom: 3vw;
 }
 
+.text1 {
+  font-size: calc(1em + 2.0vw); 
+  margin-left: 1.8vw;
+  margin-right: 1.8vw;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 .row2{
+  padding-top: 1vw;
   padding-bottom: 1vw;
 }
 
-
-.header-text1 {
-  font-size: calc(1em + 1.4vw); 
+.text2 {
+  font-size: calc(1em + 1.5vw); 
 }
 
-.header-text2 {
-  font-size: calc(1em + 1vw); 
-}
+
+
+
 
 .header-text3{
   font-size: calc(1em + .6vw); 
