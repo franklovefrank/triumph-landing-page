@@ -113,6 +113,10 @@ a.login:hover, a.login:active{
   }
 }
 
+.cards{
+  padding-bottom: 2vw;
+}
+
 .row6{
   padding-bottom: 1vw;
   padding-top: 2vw;
