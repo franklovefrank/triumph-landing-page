@@ -151,16 +151,24 @@ function App() {
         <Container fluid className="container1">
           <Row className="justify-content-center row8">
             <Col>
-              <text className="header-text3">Learn More</text>
+            <Link to="/learnmore" className="learn">
+                 Learn More
+                 </Link>
             </Col>
           </Row>
           <Row className="justify-content-center row9">
             <Col xs={8}>
-              <text className="header-text4">
+              <text className="text4">
                 {" "}
                 If you still have questions or simply want to learn more you can
-                check our Help Docs or our bitcointalk thread
-              </text>
+                check our </text> 
+                <Link to="/helpdocs" className="links">
+                 Help Docs
+                 </Link> 
+                 <text className="text4"> or our </text> 
+                 <Link to="/bitcointalk" className="links">
+                 bitcointalk thread
+                 </Link>
             </Col>
           </Row>
 

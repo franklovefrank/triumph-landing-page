@@ -173,12 +173,26 @@ a.login:hover, a.login:active{
   color: #f28e27;
 }
 
-
-.text3{
+a.learn:link, a.learn:visited{
   font-size: calc(1em + .6vw); 
+  color:#f28e27;
+  text-decoration: none;
+}
+
+a.learn:hover, a.learn:active{
+  color: white;
+}
+a.links:link, a.links:visited{
+  color:#f28e27;
+  font-size: calc(1em + .2vw); 
+  text-decoration: none;
+}
+
+a.links:hover, a.links:active{
+  color: white;
 }
 
 .text4{
-  font-size: calc(1em + .15vw); 
+  font-size: calc(1em + .2vw); 
 }
 
