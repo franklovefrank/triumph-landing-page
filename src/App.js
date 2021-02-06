@@ -86,15 +86,14 @@ function App() {
               <Col xs={5} md={3}>
               <Image className="cards" src={matchmaking}fluid></Image>
               </Col>
-
-              
-          </Row>
+            </Row>           
         </Container>
+
         <Container fluid className="container2">
-          <Row className="row6">
+          <Row className="row6 justify-content-center">
             <Col md={7}>
               <h2> Biggest Winners</h2>
-              <Table striped variant="dark">
+              <Table className="table table-striped">
                 <thead>
                   <tr className="labels">
                     <th>Rank</th>
@@ -123,7 +122,7 @@ function App() {
             </Col>
             <Col>
               <h2>Best Games</h2>
-              <Table striped variant="dark">
+              <Table className="table table-striped">
                 <thead>
                   <tr className="labels">
                     <th>Rank</th>

@@ -117,6 +117,7 @@ a.login:hover, a.login:active{
   padding-bottom: 1vw;
   padding-top: 2vw;
   padding-left: 5vw;
+  padding-right: 3vw;
 }
 .row7{
   padding-left: 5vw;
@@ -140,11 +141,29 @@ a.login:hover, a.login:active{
 
 
 .container2{
-  background-color: black;
+  background-color: #131313;
   color: white;
   text-align: left;
 }
 
+
+.table thead tr th, .table tbody tr td {
+  border: none;
+}
+
+.table-striped thead{
+  background-color: #2d2d2d;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #262427 !important;
+  color: white;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #1c1c1c !important;
+  color: white;
+}
 
 .labels{
   color: #f28e27;
@@ -157,9 +176,5 @@ a.login:hover, a.login:active{
 
 .text4{
   font-size: calc(1em + .15vw); 
-}
-.dotted {
-  border: none;
-  border-top: 20px dotted green;
 }
 
