@@ -11,7 +11,7 @@
 
 
 .container1{
-  background-color: rgb(37, 37, 37);
+  background-color: #1d1b1c;
 }
 
 .header{
@@ -82,51 +82,40 @@ a.login:hover, a.login:active{
   font-size: calc(1em + 1.5vw); 
 }
 
-
-
-
-
-.header-text3{
-  font-size: calc(1em + .6vw); 
-}
-
-.header-text4{
-  font-size: calc(1em + .15vw); 
-}
-
-.cards{
-  color: black;
-  margin-bottom: -1vw;
-  border-radius: 0%;
-}
-
-.card-header-img {
-  padding-top: 1vw;
-  margin: 0px auto;
-  height: 8vw;
-  object-fit: contain;
-}
-
 .row3{
   padding-top: 1vw;
   padding-bottom: 2vw;
 }
 
-.row4{
-  margin-top: -2vw;
-  margin-bottom: 4vw;
+.graphics{
+  padding: 5% 20% 0% 20%;
+  margin: 0px auto;
+}
+
+.graphics-text{
+  padding-top: 5%;
+  font-size: calc(1em + 0.5vw);
 }
 
 .row5{
-  padding-bottom: 20vw;
-  padding-left: 8vw;
-  padding-right: 8vw;
-  height: 15vw;
+  padding-top: 2vw;
+  padding-bottom: 5vw;
+}
+
+@media (min-width: 978px) {
+  .row5{
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .cards{
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
 }
 
 .row6{
   padding-bottom: 1vw;
-  padding-top: 1vw;
+  padding-top: 2vw;
   padding-left: 5vw;
 }
 .row7{
@@ -148,25 +137,27 @@ a.login:hover, a.login:active{
   padding-bottom: 2vw;
 }
 
-.graphics{
-  padding: 5% 20% 0% 20%;
-  margin: 0px auto;
-}
+
 
 .container2{
   background-color: black;
   color: white;
   text-align: left;
 }
-.graphics-text{
-  color: white;
-  font-size: calc(1em + 0.5vw);
-}
+
 
 .labels{
   color: #f28e27;
 }
 
+
+.text3{
+  font-size: calc(1em + .6vw); 
+}
+
+.text4{
+  font-size: calc(1em + .15vw); 
+}
 .dotted {
   border: none;
   border-top: 20px dotted green;

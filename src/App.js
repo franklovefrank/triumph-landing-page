@@ -1,17 +1,18 @@
 import "./App.css";
 import React from "react";
-import { Container, Row, Col, Image, Card, Table } from "react-bootstrap";
+import { Container, Row, Col, Image, Card, CardDeck, Table } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import playnow from "./assets/playnow.png";
 import choose from "./assets/choose.png";
 import buyin from "./assets/buyin.png";
 import cashout from "./assets/cashout.png";
-import secure from "./assets/secure.svg";
-import anticheating from "./assets/anticheating.svg";
-import fair from "./assets/fair.svg";
-import matchmaking from "./assets/matchmaking.svg";
+import secure from "./assets/secure1.png";
+import anticheating from "./assets/anticheating.png";
+import fair from "./assets/fair1.png";
+import matchmaking from "./assets/matchmaking1.png";
 import logo from "./assets/triumph_white.png";
 import logo1 from "./assets/gradientlogo.png";
+
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
               </h1>
             </Col>
           </Row>
+          
           <Row className="justify-content-center row2">
             <text className="text2"> How to play:</text>
           </Row>
@@ -57,68 +59,35 @@ function App() {
           </Row>
 
           <Row className="row3 justify-content-center">
-            <Col xs={11} md={3}>
+            <Col xs={8} md={3}>
               <Image className="graphics" src={choose} fluid />
               <h2 className="graphics-text">CHOOSE A GAME</h2>
             </Col>
-            <Col xs={11} md={3}>
+            <Col xs={8} md={3}>
               <Image className="graphics" src={buyin} fluid />
               <h2 className="graphics-text">BUY IN</h2>
             </Col>
-            <Col xs={11} md={3}>
+            <Col xs={8} md={3}>
               <Image className="graphics" src={cashout} fluid />
               <h2 className="graphics-text">CASH OUT!</h2>
             </Col>
           </Row>
+
           <Row className="justify-content-center row5">
-            <Col xs={11} sm={5} md={3}>
-              <Card className="cards h-100" fluid>
-                <Card.Img className="card-header-img" src={secure} fluid />
-                <Card.Body>
-                  <Card.Title className="card-title">Secure</Card.Title>
-                  <Card.Text className="card-text">
-                    Paypal and Bitcoin payments and security
-                  </Card.Text>
-                </Card.Body>
-              </Card>
+            <Col xs={5} md={3}>
+              <Image className="cards" src={secure} fluid></Image>
             </Col>
-            <Col xs={11} sm={5} md={3}>
-              <Card className="cards h-100" fluid>
-                <Card.Img
-                  className="card-header-img"
-                  src={anticheating}
-                  fluid
-                />
-                <Card.Body>
-                  <Card.Title className="card-title">Anti-Cheating</Card.Title>
-                  <Card.Text className="card-text">
-                    We employ anti-robot detection software
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col xs={11} sm={5} md={3}>
-              <Card className="cards h-100" fluid>
-                <Card.Img className="card-header-img" src={fair} fluid />
-                <Card.Body>
-                  <Card.Title className="card-title">Fair</Card.Title>
-                  <Card.Text className="card-text">
-                    Only play with real, verified humans
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col xs={11} sm={5} md={3}>
-              <Card className="cards h-100" fluid>
-                <Card.Img className="card-header-img" src={matchmaking} fluid />
-                <Card.Body>
-                  <Card.Title className="card-title">Matchmaking</Card.Title>
-                  <Card.Text className="card-text">
-                    We match you with people in your skill range
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
+            <Col xs={5} md={3}>
+            <Image className="cards" src={anticheating} fluid></Image>
+              </Col>
+              <Col xs={5} md={3}>
+              <Image className="cards" src={fair} fluid></Image>
+              </Col>
+              <Col xs={5} md={3}>
+              <Image className="cards" src={matchmaking}fluid></Image>
+              </Col>
+
+              
           </Row>
         </Container>
         <Container fluid className="container2">
